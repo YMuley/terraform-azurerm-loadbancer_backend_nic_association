@@ -1,0 +1,3 @@
+output "lb_bckpool_nic_association_output" {
+  value = azurerm_network_interface_backend_address_pool_association.lb_backend_pool_nic_association
+}
